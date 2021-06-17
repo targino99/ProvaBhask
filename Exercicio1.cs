@@ -7,7 +7,7 @@ namespace ExBhaskara
 {
     public class Exercicio
     {
-        public int Calculo(int a, int b, int c, double d, double raiz)
+        public int Calculo(float a, float b, float c, float d, float raiz)
         {
             return (b * b) - (4 * b * c);
                             Math.Sqrt;
