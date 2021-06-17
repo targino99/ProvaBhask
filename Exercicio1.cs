@@ -24,7 +24,7 @@ namespace ExBhaskara
             }
             return -1;
             return (b * b) - (4 * b * c);
-            
+            //exerci
         }
 
     }
