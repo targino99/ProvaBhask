@@ -10,7 +10,7 @@
 
 
 
-        public string VerificaIdade(Pessoa p)
+        public string VerificaIdade(idade i)
         {
             for (int i = 2; i < idade; i++)
             {
