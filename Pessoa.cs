@@ -15,7 +15,7 @@
             for (int i = 2; i < idade; i++)
             {
                 if (idade % i == 0 && i != idade)
-                    return "não é primo;
+                    return "não é primo";
             }
             return "Primo";
            
