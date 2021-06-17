@@ -9,7 +9,7 @@ namespace ExBhaskara.Controllers
 {
     [ApiController]
     //[Route("[controller]")]
-    public class ExercicioController : ControllerBase
+    public class Exercicio1Controller : ControllerBase
     {
     
 
@@ -18,7 +18,7 @@ namespace ExBhaskara.Controllers
         [Route("Calculo/{a:float}/{b:float}/{c:float}")]
         public int Calculo(float a, float b, float c)
         {
-            Exercicio Exercicio = new Exercicio();
+            Exercicio Exercicio1 = new Exercicio();
             return Exercicio.Calculo(a, b, c);
         }
     
