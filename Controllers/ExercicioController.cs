@@ -11,12 +11,12 @@ namespace ExBhaskara.Controllers
     //[Route("[controller]")]
     public class ExercicioController : ControllerBase
     {
-        
+    
 
         [HttpGet]
        
-        [Route("Calculo/{a:int}/{b:int}/{c:int}")]
-        public int Calculo(int a, int b, int c)
+        [Route("Calculo/{a:float}/{b:float}/{c:float}")]
+        public int Calculo(float a, float b, float c)
         {
             Exercicio Exercicio = new Exercicio();
             return Exercicio.Calculo(a, b, c);
