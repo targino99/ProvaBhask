@@ -7,8 +7,10 @@ namespace ExBhaskara
 {
     public class Exercicio
     {
-        public int Calculo(float a, float b, float c, float d, float raiz)
+        public float Calculo(float a, float b, float c)
         {
+            float delta= (b * b) - (4 * b * c); 
+            float raiz= Math.Sqrt(delta);
             
              if (delta > 0)
             {
@@ -22,9 +24,8 @@ namespace ExBhaskara
             {
                 return 0;
             }
-            return -1;
-            return (b * b) - (4 * b * c);
-            //exerci
+            return -1
+            
         }
 
     }
