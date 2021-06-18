@@ -10,10 +10,10 @@ namespace TestProject1
         [InlineData(-10, 10)]
         [InlineData(1, -7)]
         [InlineData(-4, -4)]
-        public void TesteCalculo(int a, int b, int c,  double resultadodoteste)
+        public void TesteCalculo(float a, float b, float c,  float resultadodoteste)
         {
             //arrange
-            double resultado;
+            float resultado;
 
             Exercicio ExercicioTeste = new Exercicio();
             //act
