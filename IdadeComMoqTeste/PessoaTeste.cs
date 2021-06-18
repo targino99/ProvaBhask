@@ -6,6 +6,7 @@ namespace IdadeComMoqTeste
         [InlineData]("Max", 23, "é número primo")
         [InlineData]("Lucas", 30, "Não é número primo")
         [InlineData]("Maria", 17, "é número primo")
+        [InlineData]("josé", 16, "Não é número primo")
         
         public void VerificaIdade(String Nome, int idade)
         {
