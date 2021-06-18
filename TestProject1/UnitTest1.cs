@@ -13,11 +13,11 @@ namespace TestProject1
         public void TesteCalculo(float a, float b, float c,  float resultadodoteste)
         {
             //arrange
-            float resultado;
+            float resultado =((b * b) - (4 * a * c)) ;
 
             Exercicio ExercicioTeste = new Exercicio();
             //act
-            resultado = ExercicioTeste.Calculo(a, b, c);
+            resultado = ExercicioTeste.Calculo((b * b) - (4 * a * c));
             //assert
             Assert.Equal(resultado, resultadodoteste);
 
